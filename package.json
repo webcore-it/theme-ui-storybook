@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@storybook/react": "6.1.20",
-    "@theme-ui/presets": "0.6.0-alpha.7",
     "@types/react": "17.0.1",
     "@types/react-dom": "17.0.1",
     "react": "17.0.1",
@@ -20,16 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    "defaults"
+  ]
 }
