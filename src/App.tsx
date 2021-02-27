@@ -9,8 +9,9 @@ export default function App() {
             </Heading>
             <Divider my={4}/>
             <Alert variant="primary" sx={{mb: 1}}>Primary Alert with sx</Alert>
-            <Button variant="primary" sx={{bg: 'red'}}>Primary Button without sx</Button>
+            <Button variant="primary" m={1}>Primary Button without sx</Button>
             <Message variant="primary" sx={{bg: 'secondary'}}>Primary Message with sx</Message>
+            <div sx={{p: 2}}>I'm just a div with sx</div>
         </Box>
     );
 }
